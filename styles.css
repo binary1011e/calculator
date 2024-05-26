@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+.calculator {
+    flex-shrink: 0;
+    display: flex;
+    align-self: center;
+    height: 600px;
+    width: 400px;
+    flex-direction: column;
+    gap:5px;
+    background-color:darkgoldenrod;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.buttons {
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.number, .operator {
+    width: 84px;
+    height: 84px;
+    box-sizing: border-box;
+}
+.number {
+    background-color: bisque;
+}
+.operator {
+    background-color: beige;
+}
+.clear, #equals, #pm {
+    width: 173px;
+    height: 84px;
+    box-sizing: border-box;
+}
+.buttons > * {
+    font-size: 20px;
+    
+}
+.display {
+    text-align: end;
+    font-size: 50px;
+    padding-top: 50px;
+}
