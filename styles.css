@@ -35,7 +35,7 @@ body {
 .operator {
     background-color: beige;
 }
-.clear, #equals, #pm {
+#clear {
     width: 173px;
     height: 84px;
     box-sizing: border-box;
